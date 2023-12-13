@@ -47,6 +47,7 @@ const UserList = () => {
         );
         return (
           <Card
+            className="gap-2"
             key={user.id}
             hoverable
             style={{
